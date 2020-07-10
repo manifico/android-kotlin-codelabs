@@ -1,0 +1,14 @@
+fun printBorder(border: String, timesToRepeat: Int) {
+    repeat(timesToRepeat) {
+        print(border)
+    }
+    println()
+}
+
+fun main() {
+    val border = "_--_";
+    val timesToRepeat = 7;
+    printBorder(border, timesToRepeat)
+    println("   Happy birthday, Yacine")
+    printBorder(border, timesToRepeat)
+}
